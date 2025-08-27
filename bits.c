@@ -19,7 +19,10 @@
  *   Difficulty: 1
  */
 int bitXor(int x, int y) {
-    return 2;
+	// 由离散数学逻辑，只需两个式子真值表相同
+    int res = ~(x & y) & ~(~x & ~y);
+    printf("res = %d (0x%x)\n", res);
+    return ~(x & y) & ~(~x & ~y);
 }
 
 /*
