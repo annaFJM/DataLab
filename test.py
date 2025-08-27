@@ -78,6 +78,7 @@ class FunctionFinder(c_ast.NodeVisitor):
 
 
 problem_infos = {
+    "bitAnd": {"rating": 1, "score": 0, "operation": ["~", "|", "int"], "maxop": 7},
     "bitXor": {"rating": 1, "score": 0, "operation": ["~", "&", "int"], "maxop": 7},
     "samesign": {
         "rating": 2,

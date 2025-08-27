@@ -25,6 +25,10 @@ unsigned f2u(float f) {
     return a.u;
 }
 
+int test_bitAnd(int x, int y) {
+    return x & y;
+}
+
 int test_bitXor(int x, int y) {
     return x ^ y;
 }

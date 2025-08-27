@@ -11,6 +11,19 @@
  * and run the complete tests with test.py.
  */
 
+ /*
+ * bitAnd - x & y using only ~ and |
+ * Example: bitAnd(4, 5) = 4
+ * Legal ops: ~ |
+ * Max ops: 7
+ * Difficulty: 1
+ */
+int bitAnd(int x, int y) {
+    // ~(A & B) = (~A | ~B)
+    // A & B = ~(~A | ~B)
+    return ~(~x | ~y);
+}
+
 /*
  * bitXor - x ^ y using only ~ and &
  *   Example: bitXor(4, 5) = 1
@@ -19,10 +32,7 @@
  *   Difficulty: 1
  */
 int bitXor(int x, int y) {
-	// 由离散数学逻辑，只需两个式子真值表相同
-    int res = ~(x & y) & ~(~x & ~y);
-    printf("res = %d (0x%x)\n", res);
-    return ~(x & y) & ~(~x & ~y);
+    return 2;
 }
 
 /*

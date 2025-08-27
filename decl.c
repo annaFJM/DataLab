@@ -10,6 +10,7 @@
 
 test_rec test_set[] = {
 
+    {"bitAnd", (funct_t)bitAnd, (funct_t)test_bitAnd, 2, "~|", 7, 1, {{TMin, TMax}, {TMin, TMax}, {TMin, TMax}}},
     {"bitXor", (funct_t)bitXor, (funct_t)test_bitXor, 2, "$", 7, 1, {{TMin, TMax}, {TMin, TMax}, {TMin, TMax}}},
     {"byteSwap", (funct_t)byteSwap, (funct_t)test_byteSwap, 3, "$", 17, 2, {{TMin, TMax}, {0, 3}, {0, 3}}},
     {"logicalShift", (funct_t)logicalShift, (funct_t)test_logicalShift, 2, "$", 20, 3, {{TMin, TMax}, {0, 31}, {TMin, TMax}}},

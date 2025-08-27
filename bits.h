@@ -1,3 +1,5 @@
+int bitAnd(int, int);
+int test_bitAnd(int, int);
 int bitXor(int, int);       // 保留
 int test_bitXor(int, int);  // 保留
 int logtwo(int);            // 保留
