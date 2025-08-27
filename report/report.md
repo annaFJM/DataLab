@@ -11,7 +11,7 @@
 
 test 截图：
 
-![image](./imgs/image.png)
+![alt text](192ce5af5d19cedc24c990cde28f44d.png)
 
 <!-- TODO: 用一个通过的截图，本地图片，放到 imgs 文件夹下，不要用这个 github，pandoc 解析可能有问题 -->
 

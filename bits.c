@@ -21,6 +21,7 @@
 int bitAnd(int x, int y) {
     // ~(A & B) = (~A | ~B)
     // A & B = ~(~A | ~B)
+    // printf("res = 0x%x\n", ~(~x | ~y));
     return ~(~x | ~y);
 }
 
